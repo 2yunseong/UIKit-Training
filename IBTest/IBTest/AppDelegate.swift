@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  UIkitBasic
+//  IBTest
 //
-//  Created by 이윤성 on 2021/12/18.
+//  Created by 이윤성 on 2021/12/23.
 //
 
 import UIKit
@@ -22,7 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
-        sleep(5)
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
