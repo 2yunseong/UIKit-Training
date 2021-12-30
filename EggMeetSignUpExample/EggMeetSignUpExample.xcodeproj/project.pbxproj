@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1909CEE6277D9DD300235F4F /* ExplainGrowPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEE5277D9DD300235F4F /* ExplainGrowPointViewController.swift */; };
 		192C40EB277C41A4003055DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40EA277C41A4003055DD /* AppDelegate.swift */; };
 		192C40ED277C41A4003055DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40EC277C41A4003055DD /* SceneDelegate.swift */; };
 		192C40EF277C41A4003055DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40EE277C41A4003055DD /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1909CEE5277D9DD300235F4F /* ExplainGrowPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainGrowPointViewController.swift; sourceTree = "<group>"; };
 		192C40E7277C41A4003055DD /* EggMeetSignUpExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggMeetSignUpExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		192C40EA277C41A4003055DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		192C40EC277C41A4003055DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,12 +65,13 @@
 				192C40EA277C41A4003055DD /* AppDelegate.swift */,
 				192C40EC277C41A4003055DD /* SceneDelegate.swift */,
 				192C40EE277C41A4003055DD /* ViewController.swift */,
+				192C4101277C422C003055DD /* SetGrowthPointViewController.swift */,
+				1909CEE5277D9DD300235F4F /* ExplainGrowPointViewController.swift */,
 				192C40F0277C41A4003055DD /* Main.storyboard */,
 				192C40F6277C41A6003055DD /* Assets.xcassets */,
 				192C40F8277C41A6003055DD /* LaunchScreen.storyboard */,
 				192C40FB277C41A6003055DD /* Info.plist */,
 				192C40F3277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld */,
-				192C4101277C422C003055DD /* SetGrowthPointViewController.swift */,
 			);
 			path = EggMeetSignUpExample;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				192C4102277C422C003055DD /* SetGrowthPointViewController.swift in Sources */,
 				192C40EB277C41A4003055DD /* AppDelegate.swift in Sources */,
 				192C40ED277C41A4003055DD /* SceneDelegate.swift in Sources */,
+				1909CEE6277D9DD300235F4F /* ExplainGrowPointViewController.swift in Sources */,
 				192C40F5277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
