@@ -19,9 +19,10 @@ class ResultViewController: UIViewController {
     var paramInterval: Double = 0
     
     
-    
     override func viewDidLoad() {
-        super.viewDidLoad()
+        self.resultEmail.text = paramEmail
+        self.resultUpdate.text = (self.paramUpdate == true ? "On" : "Off")
+        self.resultInterval.text = "\(Int(paramInterval)) 분마다 갱신."
     }
     
 }

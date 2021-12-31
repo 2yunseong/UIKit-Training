@@ -46,7 +46,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GCl-Ar-P0I">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="GCl-Ar-P0I">
                                 <rect key="frame" x="47" y="332" width="261" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -85,6 +85,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="mentorAreaCareerTextField" destination="GCl-Ar-P0I" id="1z6-VE-CxW"/>
                         <segue destination="8L4-FF-aiS" kind="presentation" identifier="windSetGrowthPointSegue" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="6TN-R5-Urc"/>
                     </connections>
                 </viewController>
@@ -337,6 +338,9 @@
                         <viewLayoutGuide key="safeArea" id="Z3U-Bm-dFs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="menteeAreaDescription" destination="VCI-gH-W9P" id="jLo-jM-S1C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qu4-Ih-TjT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="maU-fc-hiR" userLabel="Exit" sceneMemberID="exit"/>
