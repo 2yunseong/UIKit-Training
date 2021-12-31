@@ -20,6 +20,7 @@
 		1997F6E1277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */; };
 		1997F6E3277F05CB0077C864 /* SetChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */; };
 		1997F6E5277F06520077C864 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */; };
+		1997F6E7277F20320077C864 /* MaliciousContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E6277F20320077C864 /* MaliciousContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMenteeAreaDescriptionViewController.swift; sourceTree = "<group>"; };
 		1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetChannelViewController.swift; sourceTree = "<group>"; };
 		1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
+		1997F6E6277F20320077C864 /* MaliciousContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliciousContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */,
 				1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */,
 				1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */,
+				1997F6E6277F20320077C864 /* MaliciousContentViewController.swift */,
 				192C40F0277C41A4003055DD /* Main.storyboard */,
 				192C40F6277C41A6003055DD /* Assets.xcassets */,
 				192C40F8277C41A6003055DD /* LaunchScreen.storyboard */,
@@ -167,6 +170,7 @@
 				192C40ED277C41A4003055DD /* SceneDelegate.swift in Sources */,
 				1997F6E1277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift in Sources */,
 				1909CEE6277D9DD300235F4F /* ExplainGrowPointViewController.swift in Sources */,
+				1997F6E7277F20320077C864 /* MaliciousContentViewController.swift in Sources */,
 				192C40F5277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld in Sources */,
 				1997F6E5277F06520077C864 /* TermsOfServiceViewController.swift in Sources */,
 			);

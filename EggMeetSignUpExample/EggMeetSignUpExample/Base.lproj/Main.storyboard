@@ -303,12 +303,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="(건너뛰기)"/>
+                                <connections>
+                                    <action selector="skipAndWindSetChannelView:" destination="jFq-eG-wJv" eventType="touchUpInside" id="sWp-Ut-ry3"/>
+                                    <segue destination="88Y-0R-aS8" kind="presentation" identifier="skipAndWindSetChannelSegue" modalPresentationStyle="fullScreen" id="z9L-s9-6hY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYZ-Ru-ViH">
                                 <rect key="frame" x="133" y="497" width="83" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="(다음으로)"/>
+                                <connections>
+                                    <action selector="windSetChannelView:" destination="jFq-eG-wJv" eventType="touchUpInside" id="om9-zV-5TX"/>
+                                    <segue destination="88Y-0R-aS8" kind="presentation" identifier="windSetChannelSegue" modalPresentationStyle="fullScreen" id="5me-ZN-ZCD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUm-Sr-zjP">
                                 <rect key="frame" x="20" y="36" width="83" height="31"/>
@@ -367,12 +375,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="(건너뛰기)"/>
+                                <connections>
+                                    <action selector="skipAndWindTermsOfServiceView:" destination="88Y-0R-aS8" eventType="touchUpInside" id="yxy-Md-Y2E"/>
+                                    <segue destination="HjL-41-FVU" kind="presentation" identifier="skipAndWindTermsOfServiceSegue" modalPresentationStyle="fullScreen" id="h9C-qf-x7A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khM-CK-3k2">
                                 <rect key="frame" x="124" y="506" width="83" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="(다음으로)"/>
+                                <connections>
+                                    <action selector="windTermsOfServiceView:" destination="88Y-0R-aS8" eventType="touchUpInside" id="GIH-Xd-WOJ"/>
+                                    <segue destination="HjL-41-FVU" kind="presentation" identifier="windTermsOfServiceSegue" modalPresentationStyle="fullScreen" id="wJA-hz-LdR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="만남 채널 선택" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYh-hg-nnE">
                                 <rect key="frame" x="144" y="53" width="97" height="21"/>
@@ -381,12 +397,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zys-ah-V49">
+                                <rect key="frame" x="28" y="53" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="(뒤로가기)"/>
+                                <connections>
+                                    <segue destination="Ela-b3-ZP2" kind="unwind" unwindAction="unwindSetChannelView:" id="MPb-jO-ikn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SKU-mo-xd8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXi-nn-uOV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Ela-b3-ZP2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3081" y="82"/>
         </scene>
@@ -443,6 +469,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="다음으로"/>
+                                <connections>
+                                    <action selector="windMalicioutContentView:" destination="HjL-41-FVU" eventType="touchUpInside" id="Owc-33-OYi"/>
+                                    <segue destination="ZXO-6u-Rqs" kind="presentation" identifier="windMalicioutContentSegue" modalPresentationStyle="fullScreen" id="e35-0n-p8R"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bPs-2R-X4W"/>
@@ -454,9 +484,24 @@
             <point key="canvasLocation" x="3808.8000000000002" y="80.50974512743629"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="SsL-fe-TfX">
+            <objects>
+                <viewController id="iV1-BU-Raj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vf0-ak-Sxd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="LJ8-sb-LET"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kug-Py-9T0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3809" y="-628"/>
+        </scene>
+        <!--Malicious Content View Controller-->
         <scene sceneID="yl8-Jm-aAC">
             <objects>
-                <viewController id="ZXO-6u-Rqs" sceneMemberID="viewController">
+                <viewController id="ZXO-6u-Rqs" customClass="MaliciousContentViewController" customModule="EggMeetSignUpExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xvh-Wc-JbN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -487,6 +532,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="동의합니다"/>
+                                <connections>
+                                    <action selector="touchUpAgreeButton:" destination="ZXO-6u-Rqs" eventType="touchUpInside" id="Ckz-UI-47F"/>
+                                    <segue destination="uFr-YL-HXb" kind="presentation" identifier="RestrictMaliciousContentSegue" modalPresentationStyle="fullScreen" id="pZd-ei-dhA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aVL-6o-zIC"/>
@@ -540,8 +589,25 @@
             </objects>
             <point key="canvasLocation" x="5264.8000000000002" y="80.50974512743629"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="48A-Yk-5k9">
+            <objects>
+                <viewController id="PHh-bI-xXg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pDc-O0-kK0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BLU-2Y-paO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5DH-9E-snM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3809" y="798"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="h9C-qf-x7A"/>
+        <segue reference="5me-ZN-ZCD"/>
         <segue reference="BtU-1G-T6X"/>
         <segue reference="CkE-K0-QXg"/>
         <segue reference="8XS-hV-CIJ"/>
