@@ -16,6 +16,10 @@
 		192C40F7277C41A6003055DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192C40F6277C41A6003055DD /* Assets.xcassets */; };
 		192C40FA277C41A6003055DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192C40F8277C41A6003055DD /* LaunchScreen.storyboard */; };
 		192C4102277C422C003055DD /* SetGrowthPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C4101277C422C003055DD /* SetGrowthPointViewController.swift */; };
+		1997F6DF277F04750077C864 /* SetMenteeAreaCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6DE277F04750077C864 /* SetMenteeAreaCategoryViewController.swift */; };
+		1997F6E1277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */; };
+		1997F6E3277F05CB0077C864 /* SetChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */; };
+		1997F6E5277F06520077C864 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		192C40F9277C41A6003055DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		192C40FB277C41A6003055DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		192C4101277C422C003055DD /* SetGrowthPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGrowthPointViewController.swift; sourceTree = "<group>"; };
+		1997F6DE277F04750077C864 /* SetMenteeAreaCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMenteeAreaCategoryViewController.swift; sourceTree = "<group>"; };
+		1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMenteeAreaDescriptionViewController.swift; sourceTree = "<group>"; };
+		1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetChannelViewController.swift; sourceTree = "<group>"; };
+		1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,10 @@
 				192C40EE277C41A4003055DD /* ViewController.swift */,
 				192C4101277C422C003055DD /* SetGrowthPointViewController.swift */,
 				1909CEE5277D9DD300235F4F /* ExplainGrowPointViewController.swift */,
+				1997F6DE277F04750077C864 /* SetMenteeAreaCategoryViewController.swift */,
+				1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */,
+				1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */,
+				1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */,
 				192C40F0277C41A4003055DD /* Main.storyboard */,
 				192C40F6277C41A6003055DD /* Assets.xcassets */,
 				192C40F8277C41A6003055DD /* LaunchScreen.storyboard */,
@@ -149,10 +161,14 @@
 			files = (
 				192C40EF277C41A4003055DD /* ViewController.swift in Sources */,
 				192C4102277C422C003055DD /* SetGrowthPointViewController.swift in Sources */,
+				1997F6E3277F05CB0077C864 /* SetChannelViewController.swift in Sources */,
+				1997F6DF277F04750077C864 /* SetMenteeAreaCategoryViewController.swift in Sources */,
 				192C40EB277C41A4003055DD /* AppDelegate.swift in Sources */,
 				192C40ED277C41A4003055DD /* SceneDelegate.swift in Sources */,
+				1997F6E1277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift in Sources */,
 				1909CEE6277D9DD300235F4F /* ExplainGrowPointViewController.swift in Sources */,
 				192C40F5277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld in Sources */,
+				1997F6E5277F06520077C864 /* TermsOfServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,7 @@
 		1909CEFE277DAE4100235F4F /* SubmitValue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEFC277DAE4100235F4F /* SubmitValue.xcdatamodeld */; };
 		1909CF00277DAE4300235F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1909CEFF277DAE4300235F4F /* Assets.xcassets */; };
 		1909CF03277DAE4300235F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1909CF01277DAE4300235F4F /* LaunchScreen.storyboard */; };
+		1909CF0B277DD18D00235F4F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CF0A277DD18D00235F4F /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1909CEFF277DAE4300235F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1909CF02277DAE4300235F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1909CF04277DAE4300235F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1909CF0A277DD18D00235F4F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				1909CEF3277DAE4100235F4F /* AppDelegate.swift */,
 				1909CEF5277DAE4100235F4F /* SceneDelegate.swift */,
 				1909CEF7277DAE4100235F4F /* ViewController.swift */,
+				1909CF0A277DD18D00235F4F /* ResultViewController.swift */,
 				1909CEF9277DAE4100235F4F /* Main.storyboard */,
 				1909CEFF277DAE4300235F4F /* Assets.xcassets */,
 				1909CF01277DAE4300235F4F /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1909CF0B277DD18D00235F4F /* ResultViewController.swift in Sources */,
 				1909CEF8277DAE4100235F4F /* ViewController.swift in Sources */,
 				1909CEFE277DAE4100235F4F /* SubmitValue.xcdatamodeld in Sources */,
 				1909CEF4277DAE4100235F4F /* AppDelegate.swift in Sources */,
