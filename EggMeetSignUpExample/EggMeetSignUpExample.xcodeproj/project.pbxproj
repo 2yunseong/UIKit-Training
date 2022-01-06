@@ -7,45 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1909CEE6277D9DD300235F4F /* ExplainGrowPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEE5277D9DD300235F4F /* ExplainGrowPointViewController.swift */; };
-		192C40EB277C41A4003055DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40EA277C41A4003055DD /* AppDelegate.swift */; };
-		192C40ED277C41A4003055DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40EC277C41A4003055DD /* SceneDelegate.swift */; };
-		192C40EF277C41A4003055DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40EE277C41A4003055DD /* ViewController.swift */; };
-		192C40F2277C41A4003055DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192C40F0277C41A4003055DD /* Main.storyboard */; };
-		192C40F5277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 192C40F3277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld */; };
-		192C40F7277C41A6003055DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192C40F6277C41A6003055DD /* Assets.xcassets */; };
-		192C40FA277C41A6003055DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192C40F8277C41A6003055DD /* LaunchScreen.storyboard */; };
-		192C4102277C422C003055DD /* SetGrowthPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C4101277C422C003055DD /* SetGrowthPointViewController.swift */; };
-		1997F6DF277F04750077C864 /* SetMenteeAreaCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6DE277F04750077C864 /* SetMenteeAreaCategoryViewController.swift */; };
-		1997F6E1277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */; };
-		1997F6E3277F05CB0077C864 /* SetChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */; };
-		1997F6E5277F06520077C864 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */; };
-		1997F6E7277F20320077C864 /* MaliciousContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E6277F20320077C864 /* MaliciousContentViewController.swift */; };
-		1997F6E9277F46160077C864 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1997F6E8277F46160077C864 /* User.swift */; };
+		192C40C4277C37A3003055DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40C3277C37A3003055DD /* AppDelegate.swift */; };
+		192C40C6277C37A3003055DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40C5277C37A3003055DD /* SceneDelegate.swift */; };
+		192C40C8277C37A3003055DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40C7277C37A3003055DD /* ViewController.swift */; };
+		192C40CB277C37A3003055DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192C40C9277C37A3003055DD /* Main.storyboard */; };
+		192C40CE277C37A3003055DD /* EggMeetSignUpExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 192C40CC277C37A3003055DD /* EggMeetSignUpExample.xcdatamodeld */; };
+		192C40D0277C37A5003055DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192C40CF277C37A5003055DD /* Assets.xcassets */; };
+		192C40D3277C37A5003055DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192C40D1277C37A5003055DD /* LaunchScreen.storyboard */; };
+		192C40DB277C37CD003055DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40DA277C37CD003055DD /* User.swift */; };
+		192C40DD277C40F9003055DD /* SetGrowthPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C40DC277C40F9003055DD /* SetGrowthPointViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1909CEE5277D9DD300235F4F /* ExplainGrowPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainGrowPointViewController.swift; sourceTree = "<group>"; };
-		192C40E7277C41A4003055DD /* EggMeetSignUpExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggMeetSignUpExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		192C40EA277C41A4003055DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		192C40EC277C41A4003055DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		192C40EE277C41A4003055DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		192C40F1277C41A4003055DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		192C40F4277C41A4003055DD /* EggMeetSignUpExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EggMeetSignUpExample.xcdatamodel; sourceTree = "<group>"; };
-		192C40F6277C41A6003055DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		192C40F9277C41A6003055DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		192C40FB277C41A6003055DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		192C4101277C422C003055DD /* SetGrowthPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGrowthPointViewController.swift; sourceTree = "<group>"; };
-		1997F6DE277F04750077C864 /* SetMenteeAreaCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMenteeAreaCategoryViewController.swift; sourceTree = "<group>"; };
-		1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMenteeAreaDescriptionViewController.swift; sourceTree = "<group>"; };
-		1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetChannelViewController.swift; sourceTree = "<group>"; };
-		1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
-		1997F6E6277F20320077C864 /* MaliciousContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaliciousContentViewController.swift; sourceTree = "<group>"; };
-		1997F6E8277F46160077C864 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		192C40C0277C37A3003055DD /* EggMeetSignUpExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggMeetSignUpExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		192C40C3277C37A3003055DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		192C40C5277C37A3003055DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		192C40C7277C37A3003055DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		192C40CA277C37A3003055DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		192C40CD277C37A3003055DD /* EggMeetSignUpExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EggMeetSignUpExample.xcdatamodel; sourceTree = "<group>"; };
+		192C40CF277C37A5003055DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		192C40D2277C37A5003055DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		192C40D4277C37A5003055DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192C40DA277C37CD003055DD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		192C40DC277C40F9003055DD /* SetGrowthPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGrowthPointViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		192C40E4277C41A4003055DD /* Frameworks */ = {
+		192C40BD277C37A3003055DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,41 +43,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		192C40DE277C41A4003055DD = {
+		192C40B7277C37A3003055DD = {
 			isa = PBXGroup;
 			children = (
-				192C40E9277C41A4003055DD /* EggMeetSignUpExample */,
-				192C40E8277C41A4003055DD /* Products */,
+				192C40C2277C37A3003055DD /* EggMeetSignUpExample */,
+				192C40C1277C37A3003055DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		192C40E8277C41A4003055DD /* Products */ = {
+		192C40C1277C37A3003055DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				192C40E7277C41A4003055DD /* EggMeetSignUpExample.app */,
+				192C40C0277C37A3003055DD /* EggMeetSignUpExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		192C40E9277C41A4003055DD /* EggMeetSignUpExample */ = {
+		192C40C2277C37A3003055DD /* EggMeetSignUpExample */ = {
 			isa = PBXGroup;
 			children = (
-				192C40EA277C41A4003055DD /* AppDelegate.swift */,
-				192C40EC277C41A4003055DD /* SceneDelegate.swift */,
-				192C40EE277C41A4003055DD /* ViewController.swift */,
-				192C4101277C422C003055DD /* SetGrowthPointViewController.swift */,
-				1909CEE5277D9DD300235F4F /* ExplainGrowPointViewController.swift */,
-				1997F6DE277F04750077C864 /* SetMenteeAreaCategoryViewController.swift */,
-				1997F6E0277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift */,
-				1997F6E2277F05CB0077C864 /* SetChannelViewController.swift */,
-				1997F6E4277F06520077C864 /* TermsOfServiceViewController.swift */,
-				1997F6E6277F20320077C864 /* MaliciousContentViewController.swift */,
-				192C40F0277C41A4003055DD /* Main.storyboard */,
-				192C40F6277C41A6003055DD /* Assets.xcassets */,
-				192C40F8277C41A6003055DD /* LaunchScreen.storyboard */,
-				192C40FB277C41A6003055DD /* Info.plist */,
-				192C40F3277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld */,
-				1997F6E8277F46160077C864 /* User.swift */,
+				192C40C3277C37A3003055DD /* AppDelegate.swift */,
+				192C40C5277C37A3003055DD /* SceneDelegate.swift */,
+				192C40C7277C37A3003055DD /* ViewController.swift */,
+				192C40C9277C37A3003055DD /* Main.storyboard */,
+				192C40CF277C37A5003055DD /* Assets.xcassets */,
+				192C40D1277C37A5003055DD /* LaunchScreen.storyboard */,
+				192C40D4277C37A5003055DD /* Info.plist */,
+				192C40CC277C37A3003055DD /* EggMeetSignUpExample.xcdatamodeld */,
+				192C40DA277C37CD003055DD /* User.swift */,
+				192C40DC277C40F9003055DD /* SetGrowthPointViewController.swift */,
 			);
 			path = EggMeetSignUpExample;
 			sourceTree = "<group>";
@@ -97,13 +79,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		192C40E6277C41A4003055DD /* EggMeetSignUpExample */ = {
+		192C40BF277C37A3003055DD /* EggMeetSignUpExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 192C40FE277C41A6003055DD /* Build configuration list for PBXNativeTarget "EggMeetSignUpExample" */;
+			buildConfigurationList = 192C40D7277C37A5003055DD /* Build configuration list for PBXNativeTarget "EggMeetSignUpExample" */;
 			buildPhases = (
-				192C40E3277C41A4003055DD /* Sources */,
-				192C40E4277C41A4003055DD /* Frameworks */,
-				192C40E5277C41A4003055DD /* Resources */,
+				192C40BC277C37A3003055DD /* Sources */,
+				192C40BD277C37A3003055DD /* Frameworks */,
+				192C40BE277C37A3003055DD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -111,25 +93,25 @@
 			);
 			name = EggMeetSignUpExample;
 			productName = EggMeetSignUpExample;
-			productReference = 192C40E7277C41A4003055DD /* EggMeetSignUpExample.app */;
+			productReference = 192C40C0277C37A3003055DD /* EggMeetSignUpExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		192C40DF277C41A4003055DD /* Project object */ = {
+		192C40B8277C37A3003055DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					192C40E6277C41A4003055DD = {
+					192C40BF277C37A3003055DD = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 192C40E2277C41A4003055DD /* Build configuration list for PBXProject "EggMeetSignUpExample" */;
+			buildConfigurationList = 192C40BB277C37A3003055DD /* Build configuration list for PBXProject "EggMeetSignUpExample" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,64 +119,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 192C40DE277C41A4003055DD;
-			productRefGroup = 192C40E8277C41A4003055DD /* Products */;
+			mainGroup = 192C40B7277C37A3003055DD;
+			productRefGroup = 192C40C1277C37A3003055DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				192C40E6277C41A4003055DD /* EggMeetSignUpExample */,
+				192C40BF277C37A3003055DD /* EggMeetSignUpExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		192C40E5277C41A4003055DD /* Resources */ = {
+		192C40BE277C37A3003055DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192C40FA277C41A6003055DD /* LaunchScreen.storyboard in Resources */,
-				192C40F7277C41A6003055DD /* Assets.xcassets in Resources */,
-				192C40F2277C41A4003055DD /* Main.storyboard in Resources */,
+				192C40D3277C37A5003055DD /* LaunchScreen.storyboard in Resources */,
+				192C40D0277C37A5003055DD /* Assets.xcassets in Resources */,
+				192C40CB277C37A3003055DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		192C40E3277C41A4003055DD /* Sources */ = {
+		192C40BC277C37A3003055DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192C40EF277C41A4003055DD /* ViewController.swift in Sources */,
-				192C4102277C422C003055DD /* SetGrowthPointViewController.swift in Sources */,
-				1997F6E3277F05CB0077C864 /* SetChannelViewController.swift in Sources */,
-				1997F6DF277F04750077C864 /* SetMenteeAreaCategoryViewController.swift in Sources */,
-				192C40EB277C41A4003055DD /* AppDelegate.swift in Sources */,
-				192C40ED277C41A4003055DD /* SceneDelegate.swift in Sources */,
-				1997F6E1277F056B0077C864 /* SetMenteeAreaDescriptionViewController.swift in Sources */,
-				1909CEE6277D9DD300235F4F /* ExplainGrowPointViewController.swift in Sources */,
-				1997F6E9277F46160077C864 /* User.swift in Sources */,
-				1997F6E7277F20320077C864 /* MaliciousContentViewController.swift in Sources */,
-				192C40F5277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld in Sources */,
-				1997F6E5277F06520077C864 /* TermsOfServiceViewController.swift in Sources */,
+				192C40C8277C37A3003055DD /* ViewController.swift in Sources */,
+				192C40C4277C37A3003055DD /* AppDelegate.swift in Sources */,
+				192C40C6277C37A3003055DD /* SceneDelegate.swift in Sources */,
+				192C40DD277C40F9003055DD /* SetGrowthPointViewController.swift in Sources */,
+				192C40DB277C37CD003055DD /* User.swift in Sources */,
+				192C40CE277C37A3003055DD /* EggMeetSignUpExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		192C40F0277C41A4003055DD /* Main.storyboard */ = {
+		192C40C9277C37A3003055DD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				192C40F1277C41A4003055DD /* Base */,
+				192C40CA277C37A3003055DD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		192C40F8277C41A6003055DD /* LaunchScreen.storyboard */ = {
+		192C40D1277C37A5003055DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				192C40F9277C41A6003055DD /* Base */,
+				192C40D2277C37A5003055DD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		192C40FC277C41A6003055DD /* Debug */ = {
+		192C40D5277C37A5003055DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +239,7 @@
 			};
 			name = Debug;
 		};
-		192C40FD277C41A6003055DD /* Release */ = {
+		192C40D6277C37A5003055DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +294,7 @@
 			};
 			name = Release;
 		};
-		192C40FF277C41A6003055DD /* Debug */ = {
+		192C40D8277C37A5003055DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -346,7 +322,7 @@
 			};
 			name = Debug;
 		};
-		192C4100277C41A6003055DD /* Release */ = {
+		192C40D9277C37A5003055DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -377,20 +353,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		192C40E2277C41A4003055DD /* Build configuration list for PBXProject "EggMeetSignUpExample" */ = {
+		192C40BB277C37A3003055DD /* Build configuration list for PBXProject "EggMeetSignUpExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				192C40FC277C41A6003055DD /* Debug */,
-				192C40FD277C41A6003055DD /* Release */,
+				192C40D5277C37A5003055DD /* Debug */,
+				192C40D6277C37A5003055DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		192C40FE277C41A6003055DD /* Build configuration list for PBXNativeTarget "EggMeetSignUpExample" */ = {
+		192C40D7277C37A5003055DD /* Build configuration list for PBXNativeTarget "EggMeetSignUpExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				192C40FF277C41A6003055DD /* Debug */,
-				192C4100277C41A6003055DD /* Release */,
+				192C40D8277C37A5003055DD /* Debug */,
+				192C40D9277C37A5003055DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -398,17 +374,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		192C40F3277C41A4003055DD /* EggMeetSignUpExample.xcdatamodeld */ = {
+		192C40CC277C37A3003055DD /* EggMeetSignUpExample.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				192C40F4277C41A4003055DD /* EggMeetSignUpExample.xcdatamodel */,
+				192C40CD277C37A3003055DD /* EggMeetSignUpExample.xcdatamodel */,
 			);
-			currentVersion = 192C40F4277C41A4003055DD /* EggMeetSignUpExample.xcdatamodel */;
+			currentVersion = 192C40CD277C37A3003055DD /* EggMeetSignUpExample.xcdatamodel */;
 			path = EggMeetSignUpExample.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 192C40DF277C41A4003055DD /* Project object */;
+	rootObject = 192C40B8277C37A3003055DD /* Project object */;
 }
